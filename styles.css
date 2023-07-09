@@ -28,6 +28,12 @@ body {
     top: 0;
   }
 
+  @media (max-width: 480px) {
+    .nav {
+      overflow-x: hidden;
+  }
+  }
+
 
   .logo-nav {
     margin-left: 10px;
@@ -100,6 +106,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
   }
 
   .about h1 {
@@ -504,7 +511,7 @@ display: none;
 
   @media (max-width: 480px) {
     .albums {
-      margin-top: 520px;
+      margin-top: -400px;
     }
   }
 
