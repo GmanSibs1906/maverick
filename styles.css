@@ -427,15 +427,6 @@ display: none;
     }
     }
 
-   .artist-details{
-    position: absolute;
-    width: 210px;
-    height: 210px;
-    display: flex;
-    justify-content:center;
-    align-items:end;
-  }
-
   .leader {
     height: 210px;
     width: 150px;
